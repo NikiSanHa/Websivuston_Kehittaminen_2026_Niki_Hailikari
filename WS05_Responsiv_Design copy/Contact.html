@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WS05 Responsiv Design</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./Images/Laurea-FI.png" type="image/png">
+  </head>
+
+  <body>
+    <div class="responsive-box">Pienennä ruutu</div>
+    <header class="site-header" style="background-color: lightgreen">
+      <div class="site-header_content">
+        <span class="site-header__kicker"
+          >Student in Laurea University of applied sciences</span
+        >
+        <h1 class="site-header__title">WS04 Harjoitus / Niki Hailikari</h1>
+        <div class="site-header__subtitle">
+          Overview of WS04 multilayout and navigation exercises
+        </div>
+      </div>
+
+      <nav class="responsive-nav">
+        <button class="menu-toggle">☰ Menu</button>
+        <ul class="nav-list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./Shakki.html">Shakki</a></li>
+          <li><a href="./Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="layout-grid">
+        <div class="grid-item">
+          <section id="about">
+            <h2>About Me</h2>
+            <p>
+              Olen vasta aloittanut IT tradenomi opiskelija. Odotan innolla,
+              mitä tämä kurssi minulle opettaa. verkkosivun tekeminen on minulle
+              täysin uutta, joten toivon saavani tästä kurssista paljon irti.
+              Koodaaminen on kiinnostanut minua jo pidempään ja nyt pääsen
+              vihdoin tekemään sitä itse. Tykkään pelata videopelejä, shakkia ja
+              urjeilla pääsääntöisesti jalkapallon parissa.
+            </p>
+          </section>
+        </div>
+
+        <div class="flex-container">
+          <div class="image">
+            <img
+              src="./Images_copy/Niki_Kuva.jpg"
+              alt="Responsive Image"
+              class="responsive-image">
+            <p>Kuva minusta</p>
+          </div>
+          <div class="link">
+            <img src="./Images_copy/Chess.com.jpg.png" alt="Chess.com"><a
+              href="https://www.chess.com/"
+              target="_blank"
+            >
+              <p>Linkki shakkiin</p></a
+            >
+          </div>
+          <div class="Link">
+            <img src="./Images_copy/Nimenhuuto.jpg.png" alt=""><a
+              href="https://nimenhuuto.com/"
+            >
+              <p>Täältä ilmoittaudutaan peleihin</p></a
+            >
+          </div>
+        </div>
+
+        <div style="background-color: lightgreen" class="Link">
+          <a href="./Shakki.html">
+            <img src="./Images_copy/Arrow_right.jpg" alt="" />
+            <p>TÄSTÄ SEURAAVALLE SIVULLE</p></a
+          >
+        </div>
+      </div>
+
+      <div class="responsive-container">
+        <div class="column">
+          <div class="media-query-box">Resize the window to see the effect</div>
+        </div>
+        <div class="column">Column 2</div>
+      </div>
+    </main>
+
+    <footer style="background-color: lightgreen">
+      <p>&copy; 2026 Niki Hailikari Laurea Ammattikorkeakoulu</p>
+    </footer>
+  </body>
+</html>
